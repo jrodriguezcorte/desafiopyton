@@ -15,8 +15,15 @@ cantidad_usuarios_regulares =  usuarios_totales - cantidad_usuarios_premium - ca
 # calculo de utilidades para usuarios regulares
 utilidades_regulares = (precio_venta*cantidad_usuarios_regulares)
 
+# Calculo utilidades
+utilidades = (utilidades_premium + utilidades_regulares)
+
 # fórmula de utilidades: (precio_venta*usuarios) - gastos
-utilidades = (utilidades_premium + utilidades_regulares) - gastos
+utilidades = utilidades - gastos
+
+# si la utilidad es mayor a cero se multiplica por el 0.65
+if utilidades > 0:
+    utilidades = utilidades*0.65
 
 # impresión de resultado final
-print("Las utilidades para el caso son de {}$".format(utilidades))
+print(utilidades)

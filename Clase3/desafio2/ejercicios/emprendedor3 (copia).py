@@ -16,13 +16,10 @@ utilidades_ano_actual = (precio_venta*usuarios_totales) - gastos
 if utilidades_ano_actual > 0:
     utilidades_ano_actual = utilidades_ano_actual*0.65
 
-# resultado utilidad
-utilidades = utilidades_ano_actual + utilidades_anterior
-
 # porcentaje de la razón entre las utilidades actuales y las del año anterior.
 razon_porcentaje_utilidades =  (utilidades_ano_actual/utilidades_anterior)*100
 
+# utilidades
+print(utilidades_ano_actual)
 # impresión de resultado final de la razón de utilidades en %
 print("{}%".format(razon_porcentaje_utilidades))
-# utilidades
-print(utilidades)

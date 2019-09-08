@@ -7,5 +7,9 @@ gastos = float(sys.argv[3]) # gastos al año ($) dólares
 # fórmula de utilidades: (precio_venta*usuarios) - gastos
 utilidades = (precio_venta*usuarios) - gastos
 
+# si la utilidad es mayor a cero se multiplica por el 0.65
+if utilidades > 0:
+    utilidades = utilidades*0.65
+
 # impresión de resultado final
-print("Las utilidades para el caso son de {}$".format(utilidades))
+print(utilidades)
