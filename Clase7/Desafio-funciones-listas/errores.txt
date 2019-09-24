@@ -1,0 +1,5 @@
+listas_uno: No está generando la lista anidada de los 6 autos, recuerde almacenar la lista en una variable
+Ejercicio listas_dos: El programa no está retornando lo esperado, revisa tu código
+Ejercicio listas_tres: El programa no está retornando lo esperado, revisa tu código
+Ejercicio listas_cuatro: Su programa no contiene la función promedio o no laestá importando del archivo velocidad.py, revise su código
+Ejercicio listas_cinco: No esta utilizando una operacion funcional para filtrar los datos.

@@ -17,5 +17,5 @@ def letra_o(n):
     return resultado
 
 # ingrese el valor de n
-# n = int(sys.argv[1])
-print(letra_o(5))
+n = int(sys.argv[1])
+print(letra_o(n))

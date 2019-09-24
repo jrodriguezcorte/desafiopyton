@@ -2,6 +2,7 @@ import sys
 # funcion letra_o
 # Entrada: n numero de dimension de letra "o"
 # Salida: print funcion
+
 def letra_o(n):
     n = int(n)
     resultado = ''
@@ -17,5 +18,5 @@ def letra_o(n):
     return resultado
 
 # ingrese el valor de n
-# n = int(sys.argv[1])
-print(letra_o(5))
+n = int(sys.argv[1])
+print(letra_o(n))

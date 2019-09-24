@@ -1,4 +1,4 @@
-import string
+import sys, string
 
 # creación de la función gen
 def gen(n):
@@ -15,7 +15,7 @@ def gen(n):
     return resultado
 
 # ingrese la contraseña
-cantidad_letras = input("Ingresa la cantidad de letras\n")
+cantidad_letras = int(sys.argv[1])
 # llamado a la funcion
 resultado = gen(cantidad_letras)
 # imprimiendo resultado

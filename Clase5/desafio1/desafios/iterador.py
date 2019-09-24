@@ -10,7 +10,6 @@ while i < 50:
 # Entrada: <vacio>
 # Salida: Imprime el valor de cada iteracion
 
-i = 0
 
 for i in range(50):
     # imprimendo los elementos del for desde 1 hasta 50
