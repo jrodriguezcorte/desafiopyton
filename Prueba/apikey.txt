@@ -1,0 +1,10 @@
+Your API key for jrodriguezcorte@gmail.com is:
+
+rAQopkrvRyhC5hWChcJMlhkS1geKW2HeaSf7qzG4
+You can start using this key to make web service requests. Simply pass your key in the URL when making a web request. Here's an example:
+
+https://api.nasa.gov/planetary/apod?api_key=rAQopkrvRyhC5hWChcJMlhkS1geKW2HeaSf7qzG4
+For additional support, please contact us. When contacting us, please tell us what API you're accessing and provide the following account details so we can quickly find you:
+
+Account Email: jrodriguezcorte@gmail.com
+Account ID: 66e14916-1000-4d7c-a712-ea87d8368c2f
